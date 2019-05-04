@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background: rgb(232, 227, 223);
+}
+
+/*The adjustments starts here of the navbar*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    opacity: .6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #3165da;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/*This is the adjustments for the main body*/
+.main {
+    background-color: white;
+    height: auto;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/*This adjustments underneath is for the for blocks with the same class*/
+.wrap {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+    max-width: 1000px;
+    padding: 10px 25px;
+    margin: 0 auto;
+}
+
+.headline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pic-one {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic-two {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic-three {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic-four {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap .col-2 p {
+    text-align: justify; /*Why did this distribute the text evenly?*/
+}
+
+.wrap::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-2 {
+    float: left;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*This is the adjustments for the footer*/
+footer {
+    background-color: #333;
+    padding: 5px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/*
+1. description V
+2. keywords V
+3. analytics
+4. Comments V
+5. Text V
+*/
+
+
